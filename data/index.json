@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-07T19:56:37+00:00",
+ "generated_at": "2026-08-07T20:10:07+00:00",
  "totals": {
-  "problems": 12,
-  "sessions": 14,
-  "accepted": 12,
+  "problems": 13,
+  "sessions": 15,
+  "accepted": 13,
   "gave_up": 2,
   "abandoned": 0
  },
@@ -73,6 +73,22 @@
    "tags": [
     "stack",
     "string"
+   ]
+  },
+  {
+   "dir_key": "0022-generate-parentheses",
+   "slug": "generate-parentheses",
+   "title": "Generate Parentheses",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": true,
+   "gave_up_count": 0,
+   "first_session_at": "2026-08-07T20:00:00.000Z",
+   "last_session_at": "2026-08-07T20:00:00.000Z",
+   "best_total_sec": 1300,
+   "tags": [
+    "backtracking",
+    "dynamic-programming"
    ]
   },
   {
@@ -536,6 +552,30 @@
     "linked-list",
     "design"
    ]
+  },
+  {
+   "session_id": "cc33dd44",
+   "dir_key": "0022-generate-parentheses",
+   "title": "Generate Parentheses",
+   "difficulty": "Medium",
+   "date": "2026-08-07",
+   "started_at": "2026-08-07T20:00:00.000Z",
+   "outcome": "accepted",
+   "attempt_number": 1,
+   "total_active_sec": 1300,
+   "phase_totals_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "run_count": 3,
+   "failed_run_count": 1,
+   "submit_count": 1,
+   "tags": [
+    "backtracking",
+    "dynamic-programming"
+   ]
   }
  ],
  "tags": {
@@ -556,6 +596,24 @@
    "avg_run_count": 3.5,
    "avg_failed_run_count": 2,
    "last_seen": "2026-08-02"
+  },
+  "backtracking": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 1300,
+   "median_total_sec": 1300,
+   "avg_phase_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-08-07"
   },
   "bfs": {
    "session_count": 3,
@@ -664,6 +722,24 @@
    "avg_run_count": 5,
    "avg_failed_run_count": 3,
    "last_seen": "2026-07-11"
+  },
+  "dynamic-programming": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 1300,
+   "median_total_sec": 1300,
+   "avg_phase_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-08-07"
   },
   "graph": {
    "session_count": 2,
@@ -980,9 +1056,9 @@
    "active_sec": 504
   },
   "2026-08-07": {
-   "sessions": 1,
-   "accepted": 1,
-   "active_sec": 1300
+   "sessions": 2,
+   "accepted": 2,
+   "active_sec": 2600
   }
  }
 }
