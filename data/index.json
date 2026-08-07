@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-07T18:13:17+00:00",
+ "generated_at": "2026-08-07T19:56:37+00:00",
  "totals": {
-  "problems": 11,
-  "sessions": 13,
-  "accepted": 11,
+  "problems": 12,
+  "sessions": 14,
+  "accepted": 12,
   "gave_up": 2,
   "abandoned": 0
  },
@@ -123,6 +123,23 @@
     "bfs",
     "queue",
     "tree"
+   ]
+  },
+  {
+   "dir_key": "0146-lru-cache",
+   "slug": "lru-cache",
+   "title": "LRU Cache",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": true,
+   "gave_up_count": 0,
+   "first_session_at": "2026-08-07T19:00:00.000Z",
+   "last_session_at": "2026-08-07T19:00:00.000Z",
+   "best_total_sec": 1300,
+   "tags": [
+    "design",
+    "hash-table",
+    "linked-list"
    ]
   },
   {
@@ -494,6 +511,31 @@
    "failed_run_count": 1,
    "submit_count": 1,
    "tags": []
+  },
+  {
+   "session_id": "aa11bb22",
+   "dir_key": "0146-lru-cache",
+   "title": "LRU Cache",
+   "difficulty": "Medium",
+   "date": "2026-08-07",
+   "started_at": "2026-08-07T19:00:00.000Z",
+   "outcome": "accepted",
+   "attempt_number": 1,
+   "total_active_sec": 1300,
+   "phase_totals_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "run_count": 3,
+   "failed_run_count": 1,
+   "submit_count": 1,
+   "tags": [
+    "hash-table",
+    "linked-list",
+    "design"
+   ]
   }
  ],
  "tags": {
@@ -569,6 +611,24 @@
    "avg_failed_run_count": 3,
    "last_seen": "2026-07-11"
   },
+  "design": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 1300,
+   "median_total_sec": 1300,
+   "avg_phase_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-08-07"
+  },
   "dp": {
    "session_count": 1,
    "problem_count": 1,
@@ -641,6 +701,24 @@
    "avg_failed_run_count": 1,
    "last_seen": "2026-07-14"
   },
+  "hash-table": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 1300,
+   "median_total_sec": 1300,
+   "avg_phase_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-08-07"
+  },
   "intervals": {
    "session_count": 1,
    "problem_count": 1,
@@ -660,22 +738,22 @@
    "last_seen": "2026-07-27"
   },
   "linked-list": {
-   "session_count": 1,
-   "problem_count": 1,
-   "accepted": 1,
+   "session_count": 2,
+   "problem_count": 2,
+   "accepted": 2,
    "gave_up": 0,
    "give_up_rate": 0.0,
-   "avg_total_sec": 2160,
-   "median_total_sec": 2160,
+   "avg_total_sec": 1730,
+   "median_total_sec": 1730,
    "avg_phase_sec": {
-    "thinking": 420,
-    "writing": 780,
-    "reviewing": 120,
-    "debugging": 840
+    "thinking": 330,
+    "writing": 720,
+    "reviewing": 60,
+    "debugging": 620
    },
-   "avg_run_count": 5,
-   "avg_failed_run_count": 3,
-   "last_seen": "2026-07-11"
+   "avg_run_count": 4,
+   "avg_failed_run_count": 2,
+   "last_seen": "2026-08-07"
   },
   "prefix-max": {
    "session_count": 1,
@@ -900,6 +978,11 @@
    "sessions": 2,
    "accepted": 2,
    "active_sec": 504
+  },
+  "2026-08-07": {
+   "sessions": 1,
+   "accepted": 1,
+   "active_sec": 1300
   }
  }
 }
