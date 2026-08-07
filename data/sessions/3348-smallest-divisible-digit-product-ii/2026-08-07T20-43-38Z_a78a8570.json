@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "session_id": "a78a8570",
+  "problem": {
+    "frontend_id": "3348",
+    "dir_key": "3348-smallest-divisible-digit-product-ii",
+    "slug": "smallest-divisible-digit-product-ii",
+    "title": "Smallest Divisible Digit Product II",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/"
+  },
+  "language": "python3",
+  "started_at": "2026-08-07T20:43:38.865Z",
+  "ended_at": "2026-08-07T20:43:49.505Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-08-07T20:43:38.865Z",
+      "end": "2026-08-07T20:43:41.754Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-08-07T20:43:41.754Z",
+      "end": "2026-08-07T20:43:49.505Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 6,
+    "writing": 6,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 12,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "0.2.0"
+  }
+}
