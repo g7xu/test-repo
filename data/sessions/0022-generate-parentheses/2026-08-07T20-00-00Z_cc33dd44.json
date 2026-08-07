@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "session_id": "cc33dd44",
+  "problem": {
+    "difficulty": "Medium",
+    "dir_key": "0022-generate-parentheses",
+    "frontend_id": "22",
+    "slug": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "url": "https://leetcode.com/problems/generate-parentheses/"
+  },
+  "language": "python3",
+  "started_at": "2026-08-07T20:00:00.000Z",
+  "ended_at": "2026-08-07T20:21:40.000Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-08-07T20:00:00.000Z",
+      "end": "2026-08-07T20:04:00.000Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-08-07T20:04:00.000Z",
+      "end": "2026-08-07T20:15:00.000Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-08-07T20:15:00.000Z",
+      "end": "2026-08-07T20:21:40.000Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+  },
+  "total_active_sec": 1300,
+  "run_count": 3,
+  "failed_run_count": 1,
+  "submit_count": 1,
+  "logic_idea": "Backtrack, tracking open/close counts.",
+  "tags": [
+    "backtracking",
+    "dynamic-programming"
+  ],
+  "comments": "Pipeline verification session.",
+  "client": {
+    "extension_version": "0.2.0"
+  }
+}
