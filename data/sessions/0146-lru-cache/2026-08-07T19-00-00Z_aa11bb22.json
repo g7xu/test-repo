@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "session_id": "aa11bb22",
+  "problem": {
+    "difficulty": "Medium",
+    "dir_key": "0146-lru-cache",
+    "frontend_id": "146",
+    "slug": "lru-cache",
+    "title": "LRU Cache",
+    "url": "https://leetcode.com/problems/lru-cache/"
+  },
+  "language": "python3",
+  "started_at": "2026-08-07T19:00:00.000Z",
+  "ended_at": "2026-08-07T19:21:40.000Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-08-07T19:00:00.000Z",
+      "end": "2026-08-07T19:04:00.000Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-08-07T19:04:00.000Z",
+      "end": "2026-08-07T19:15:00.000Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-08-07T19:15:00.000Z",
+      "end": "2026-08-07T19:21:40.000Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 240,
+    "writing": 660,
+    "reviewing": 0,
+    "debugging": 400
+  },
+  "total_active_sec": 1300,
+  "run_count": 3,
+  "failed_run_count": 1,
+  "submit_count": 1,
+  "logic_idea": "Hash map to nodes in a doubly linked list; move-to-front on get, evict tail on overflow.",
+  "tags": ["hash-table", "linked-list", "design"],
+  "comments": "Pipeline verification session.",
+  "client": {
+    "extension_version": "0.2.0"
+  }
+}
