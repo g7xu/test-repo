@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-07T20:10:07+00:00",
+ "generated_at": "2026-08-07T20:44:19+00:00",
  "totals": {
-  "problems": 13,
-  "sessions": 15,
-  "accepted": 13,
+  "problems": 14,
+  "sessions": 16,
+  "accepted": 14,
   "gave_up": 2,
   "abandoned": 0
  },
@@ -215,6 +215,19 @@
    "first_session_at": "2026-08-06T15:59:20.422Z",
    "last_session_at": "2026-08-06T23:02:11.028Z",
    "best_total_sec": 0,
+   "tags": []
+  },
+  {
+   "dir_key": "3348-smallest-divisible-digit-product-ii",
+   "slug": "smallest-divisible-digit-product-ii",
+   "title": "Smallest Divisible Digit Product II",
+   "difficulty": "Hard",
+   "attempts": 1,
+   "solved": true,
+   "gave_up_count": 0,
+   "first_session_at": "2026-08-07T20:43:38.865Z",
+   "last_session_at": "2026-08-07T20:43:38.865Z",
+   "best_total_sec": 12,
    "tags": []
   }
  ],
@@ -576,6 +589,27 @@
     "backtracking",
     "dynamic-programming"
    ]
+  },
+  {
+   "session_id": "a78a8570",
+   "dir_key": "3348-smallest-divisible-digit-product-ii",
+   "title": "Smallest Divisible Digit Product II",
+   "difficulty": "Hard",
+   "date": "2026-08-07",
+   "started_at": "2026-08-07T20:43:38.865Z",
+   "outcome": "accepted",
+   "attempt_number": 1,
+   "total_active_sec": 12,
+   "phase_totals_sec": {
+    "thinking": 6,
+    "writing": 6,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": []
   }
  ],
  "tags": {
@@ -1056,9 +1090,9 @@
    "active_sec": 504
   },
   "2026-08-07": {
-   "sessions": 2,
-   "accepted": 2,
-   "active_sec": 2600
+   "sessions": 3,
+   "accepted": 3,
+   "active_sec": 2612
   }
  }
 }
