@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "session_id": "d414f2c4",
+  "problem": {
+    "frontend_id": "3302",
+    "dir_key": "3302-find-the-lexicographically-smallest-valid-sequence",
+    "slug": "find-the-lexicographically-smallest-valid-sequence",
+    "title": "Find the Lexicographically Smallest Valid Sequence",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+  },
+  "language": "python3",
+  "started_at": "2026-08-08T03:15:11.365Z",
+  "ended_at": "2026-08-08T03:38:03.191Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-08-08T03:15:11.365Z",
+      "end": "2026-08-08T03:22:20.591Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-08-08T03:22:20.591Z",
+      "end": "2026-08-08T03:22:34.075Z",
+      "source": "auto"
+    },
+    {
+      "phase": "thinking",
+      "start": "2026-08-08T03:22:34.075Z",
+      "end": "2026-08-08T03:23:11.024Z",
+      "source": "manual"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-08-08T03:23:11.024Z",
+      "end": "2026-08-08T03:29:02.087Z",
+      "source": "manual"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-08-08T03:29:02.087Z",
+      "end": "2026-08-08T03:30:14.074Z",
+      "source": "manual"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-08-08T03:30:14.074Z",
+      "end": "2026-08-08T03:36:22.388Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-08-08T03:36:22.388Z",
+      "end": "2026-08-08T03:38:03.191Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 468,
+    "writing": 366,
+    "reviewing": 174,
+    "debugging": 366
+  },
+  "total_active_sec": 1374,
+  "run_count": 8,
+  "failed_run_count": 6,
+  "submit_count": 3,
+  "logic_idea": "BFS\n\n# i, j, change_c, \n# return the match indices (smallest)\n\n# if i go over, return []\n# if j go over, return None\n\n# if i == j\n# [indce] + hlper (move)\n\n# if i != j\n# use change_c, if not work\n\n# go to next one\n\n# return result\n\n\nO(2^n)",
+  "tags": [
+    "dp"
+  ],
+  "comments": "Feel like its gonna be a DP solution for this problem",
+  "client": {
+    "extension_version": "0.2.0"
+  }
+}
