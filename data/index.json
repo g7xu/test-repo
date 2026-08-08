@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-07T20:44:19+00:00",
+ "generated_at": "2026-08-08T03:38:57+00:00",
  "totals": {
-  "problems": 14,
-  "sessions": 16,
+  "problems": 15,
+  "sessions": 17,
   "accepted": 14,
-  "gave_up": 2,
+  "gave_up": 3,
   "abandoned": 0
  },
  "problems": [
@@ -203,6 +203,21 @@
    "last_session_at": "2026-08-05T04:55:50.740Z",
    "best_total_sec": 282,
    "tags": []
+  },
+  {
+   "dir_key": "3302-find-the-lexicographically-smallest-valid-sequence",
+   "slug": "find-the-lexicographically-smallest-valid-sequence",
+   "title": "Find the Lexicographically Smallest Valid Sequence",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-08-08T03:15:11.365Z",
+   "last_session_at": "2026-08-08T03:15:11.365Z",
+   "best_total_sec": null,
+   "tags": [
+    "dp"
+   ]
   },
   {
    "dir_key": "3345-smallest-divisible-digit-product-i",
@@ -610,6 +625,29 @@
    "failed_run_count": 0,
    "submit_count": 0,
    "tags": []
+  },
+  {
+   "session_id": "d414f2c4",
+   "dir_key": "3302-find-the-lexicographically-smallest-valid-sequence",
+   "title": "Find the Lexicographically Smallest Valid Sequence",
+   "difficulty": "Medium",
+   "date": "2026-08-08",
+   "started_at": "2026-08-08T03:15:11.365Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 1374,
+   "phase_totals_sec": {
+    "thinking": 468,
+    "writing": 366,
+    "reviewing": 174,
+    "debugging": 366
+   },
+   "run_count": 8,
+   "failed_run_count": 6,
+   "submit_count": 3,
+   "tags": [
+    "dp"
+   ]
   }
  ],
  "tags": {
@@ -722,22 +760,22 @@
    "last_seen": "2026-08-07"
   },
   "dp": {
-   "session_count": 1,
-   "problem_count": 1,
+   "session_count": 2,
+   "problem_count": 2,
    "accepted": 1,
-   "gave_up": 0,
-   "give_up_rate": 0.0,
-   "avg_total_sec": 2940,
-   "median_total_sec": 2940,
+   "gave_up": 1,
+   "give_up_rate": 0.5,
+   "avg_total_sec": 2157,
+   "median_total_sec": 2157,
    "avg_phase_sec": {
-    "thinking": 900,
-    "writing": 840,
-    "reviewing": 120,
-    "debugging": 1080
+    "thinking": 684,
+    "writing": 603,
+    "reviewing": 147,
+    "debugging": 723
    },
-   "avg_run_count": 7,
-   "avg_failed_run_count": 4,
-   "last_seen": "2026-07-23"
+   "avg_run_count": 7.5,
+   "avg_failed_run_count": 5,
+   "last_seen": "2026-08-08"
   },
   "dummy-node": {
    "session_count": 1,
@@ -1093,6 +1131,11 @@
    "sessions": 3,
    "accepted": 3,
    "active_sec": 2612
+  },
+  "2026-08-08": {
+   "sessions": 1,
+   "accepted": 0,
+   "active_sec": 1374
   }
  }
 }
