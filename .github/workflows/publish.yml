@@ -1,0 +1,89 @@
+name: publish
+
+on:
+  push:
+    branches: [main]
+    # Index-only pushes need no rebuild; second layer of loop protection on
+    # top of GITHUB_TOKEN pushes not retriggering workflows.
+    paths-ignore: ['data/index.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the rebuilt index back to this repo
+  pages: write      # deploy to GitHub Pages
+  id-token: write   # OIDC for deploy-pages
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # Version of the LeetLens toolchain (indexer + dashboard) to build with.
+  # 'v2' is a moving major tag; pin an exact tag if you prefer.
+  LEETLENS_REF: v2
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # This data repo (workspace root)
+      - uses: actions/checkout@v4
+
+      # The LeetLens toolchain, nested but never committed or deployed
+      - uses: actions/checkout@v4
+        with:
+          repository: g7xu/leetlens
+          ref: ${{ env.LEETLENS_REF }}
+          path: .leetlens
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Rebuild and commit data/index.json
+        # The indexer reads and writes at the given root (this data repo)
+        # while the code runs from the .leetlens checkout. Absolute path is
+        # required: 'uv run --directory' changes cwd.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            uv run --directory .leetlens/mcp python -m leetlens_mcp.indexer "$GITHUB_WORKSPACE"
+            git add data/index.json
+            # --cached: works on the very first run, when index.json is
+            # untracked (plain 'git diff' ignores untracked files and would
+            # skip the commit). -I ignores timestamp-only diffs, so a run that
+            # changes nothing — including one racing a run that already
+            # published the same index — creates no commit.
+            if git diff --cached -I'"generated_at"' --quiet; then
+              echo "index already up to date"
+              exit 0
+            fi
+            git commit -q -m "chore: rebuild data/index.json"
+            git push && exit 0
+            # The extension pushes a solution commit right after the session
+            # commit that triggered this run, so main often moves while we
+            # build. index.json is generated, never authored, so there is
+            # nothing to merge: rebasing our copy onto theirs only conflicts
+            # with itself. Take what landed and rebuild from it instead.
+            echo "main moved while building — rebuilding on top of it"
+            git fetch -q origin main
+            git reset -q --hard origin/main
+          done
+          echo "::error::could not publish the rebuilt index after 3 attempts"
+          exit 1
+
+      - name: Assemble Pages artifact
+        # Only dashboard source + the index — .leetlens is never deployed.
+        run: |
+          mkdir -p _site/data
+          cp -r .leetlens/dashboard/* _site/
+          cp data/index.json _site/data/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
