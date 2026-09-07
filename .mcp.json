@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "leetlens": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/g7xu/leetlens@v2#subdirectory=mcp",
+        "leetlens-mcp"
+      ]
+    }
+  }
+}
