@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "session_id": "40a82502",
+  "problem": {
+    "frontend_id": "319",
+    "dir_key": "0319-bulb-switcher",
+    "slug": "bulb-switcher",
+    "title": "Bulb Switcher",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/bulb-switcher/",
+    "topics": [
+      "math",
+      "brainteaser"
+    ]
+  },
+  "language": "python3",
+  "started_at": "2026-09-07T16:01:50.173Z",
+  "ended_at": "2026-09-07T16:06:53.747Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-07T16:01:50.173Z",
+      "end": "2026-09-07T16:06:53.747Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 306,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 306,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "for each bubble check the times it got interacted\n\nn",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0319-bulb-switcher/attempts/2026-09-07T16-01-50Z_40a82502.py",
+    "language": "python3"
+  }
+}
