@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-07T15:38:57+00:00",
+ "generated_at": "2026-09-07T16:07:13+00:00",
  "totals": {
-  "problems": 2,
-  "sessions": 2,
+  "problems": 3,
+  "sessions": 3,
   "accepted": 2,
-  "gave_up": 0,
+  "gave_up": 1,
   "abandoned": 0
  },
  "problems": [
@@ -44,6 +44,23 @@
    "topics": [
     "linked-list",
     "recursion"
+   ]
+  },
+  {
+   "dir_key": "0319-bulb-switcher",
+   "slug": "bulb-switcher",
+   "title": "Bulb Switcher",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-07T16:01:50.173Z",
+   "last_session_at": "2026-09-07T16:01:50.173Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "math",
+    "brainteaser"
    ]
   }
  ],
@@ -100,6 +117,31 @@
     "linked-list",
     "recursion"
    ]
+  },
+  {
+   "session_id": "40a82502",
+   "dir_key": "0319-bulb-switcher",
+   "title": "Bulb Switcher",
+   "difficulty": "Medium",
+   "date": "2026-09-07",
+   "started_at": "2026-09-07T16:01:50.173Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 306,
+   "phase_totals_sec": {
+    "thinking": 306,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": [],
+   "topics": [
+    "math",
+    "brainteaser"
+   ]
   }
  ],
  "tags": {
@@ -141,6 +183,24 @@
   }
  },
  "topics": {
+  "brainteaser": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 306,
+   "median_total_sec": 306,
+   "avg_phase_sec": {
+    "thinking": 306,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-07"
+  },
   "linked-list": {
    "session_count": 1,
    "problem_count": 1,
@@ -157,6 +217,24 @@
    },
    "avg_run_count": 10,
    "avg_failed_run_count": 9,
+   "last_seen": "2026-09-07"
+  },
+  "math": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 306,
+   "median_total_sec": 306,
+   "avg_phase_sec": {
+    "thinking": 306,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
+   "avg_failed_run_count": 0,
    "last_seen": "2026-09-07"
   },
   "recursion": {
@@ -198,9 +276,9 @@
  },
  "daily": {
   "2026-09-07": {
-   "sessions": 2,
+   "sessions": 3,
    "accepted": 2,
-   "active_sec": 1686
+   "active_sec": 1992
   }
  },
  "records": [
@@ -361,6 +439,55 @@
    },
    "solution": {
     "path": "0024-swap-nodes-in-pairs/attempts/2026-09-07T15-19-45Z_946ebc53.py",
+    "language": "python3"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "40a82502",
+   "problem": {
+    "frontend_id": "319",
+    "dir_key": "0319-bulb-switcher",
+    "slug": "bulb-switcher",
+    "title": "Bulb Switcher",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/bulb-switcher/",
+    "topics": [
+     "math",
+     "brainteaser"
+    ]
+   },
+   "language": "python3",
+   "started_at": "2026-09-07T16:01:50.173Z",
+   "ended_at": "2026-09-07T16:06:53.747Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-07T16:01:50.173Z",
+     "end": "2026-09-07T16:06:53.747Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 306,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "total_active_sec": 306,
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "logic_idea": "for each bubble check the times it got interacted\n\nn",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0319-bulb-switcher/attempts/2026-09-07T16-01-50Z_40a82502.py",
     "language": "python3"
    },
    "attempt_number": 1
