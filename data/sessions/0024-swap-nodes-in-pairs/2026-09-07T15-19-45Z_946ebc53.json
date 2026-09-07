@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "session_id": "946ebc53",
+  "problem": {
+    "frontend_id": "24",
+    "dir_key": "0024-swap-nodes-in-pairs",
+    "slug": "swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "topics": [
+      "linked-list",
+      "recursion"
+    ]
+  },
+  "language": "python3",
+  "started_at": "2026-09-07T15:19:45.310Z",
+  "ended_at": "2026-09-07T15:38:16.007Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-07T15:19:45.310Z",
+      "end": "2026-09-07T15:23:18.561Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-07T15:23:18.561Z",
+      "end": "2026-09-07T15:27:04.749Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-07T15:27:04.749Z",
+      "end": "2026-09-07T15:27:45.860Z",
+      "source": "manual"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-07T15:27:45.860Z",
+      "end": "2026-09-07T15:38:04.197Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-07T15:38:04.197Z",
+      "end": "2026-09-07T15:38:14.656Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-07T15:38:14.656Z",
+      "end": "2026-09-07T15:38:16.007Z",
+      "source": "manual"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 210,
+    "writing": 228,
+    "reviewing": 54,
+    "debugging": 618
+  },
+  "total_active_sec": 1110,
+  "run_count": 10,
+  "failed_run_count": 9,
+  "submit_count": 1,
+  "logic_idea": "- one, two, three\n\n- dummy node at beginning\n- mainly for two and three\n\n- two.next = three.next\n- three.next = two\n- one.next = two\n\n# the length\ncan be 0 1 or 2\n\nedge case\n0 \n1\n2",
+  "tags": [
+    "linked-list"
+  ],
+  "comments": "something to improve is to make sure we have some example running",
+  "client": {
+    "extension_version": "1.0.0"
+  },
+  "solution": {
+    "path": "0024-swap-nodes-in-pairs/attempts/2026-09-07T15-19-45Z_946ebc53.py",
+    "language": "python3"
+  }
+}
