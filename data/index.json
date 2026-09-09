@@ -1,14 +1,30 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-09T19:20:54+00:00",
+ "generated_at": "2026-09-09T19:40:24+00:00",
  "totals": {
-  "problems": 4,
-  "sessions": 4,
+  "problems": 5,
+  "sessions": 5,
   "accepted": 2,
-  "gave_up": 2,
+  "gave_up": 3,
   "abandoned": 0
  },
  "problems": [
+  {
+   "dir_key": "0006-zigzag-conversion",
+   "slug": "zigzag-conversion",
+   "title": "Zigzag Conversion",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-09T19:39:23.104Z",
+   "last_session_at": "2026-09-09T19:39:23.104Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "string"
+   ]
+  },
   {
    "dir_key": "0008-string-to-integer-atoi",
    "slug": "string-to-integer-atoi",
@@ -182,6 +198,30 @@
    "topics": [
     "math"
    ]
+  },
+  {
+   "session_id": "4529302e",
+   "dir_key": "0006-zigzag-conversion",
+   "title": "Zigzag Conversion",
+   "difficulty": "Medium",
+   "date": "2026-09-09",
+   "started_at": "2026-09-09T19:39:23.104Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 48,
+   "phase_totals_sec": {
+    "thinking": 48,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": [],
+   "topics": [
+    "string"
+   ]
   }
  ],
  "tags": {
@@ -296,22 +336,22 @@
    "last_seen": "2026-09-07"
   },
   "string": {
-   "session_count": 1,
-   "problem_count": 1,
+   "session_count": 2,
+   "problem_count": 2,
    "accepted": 1,
-   "gave_up": 0,
-   "give_up_rate": 0.0,
-   "avg_total_sec": 576,
-   "median_total_sec": 576,
+   "gave_up": 1,
+   "give_up_rate": 0.5,
+   "avg_total_sec": 312,
+   "median_total_sec": 312,
    "avg_phase_sec": {
-    "thinking": 114,
-    "writing": 204,
-    "reviewing": 114,
-    "debugging": 144
+    "thinking": 81,
+    "writing": 102,
+    "reviewing": 57,
+    "debugging": 72
    },
-   "avg_run_count": 7,
-   "avg_failed_run_count": 4,
-   "last_seen": "2026-09-07"
+   "avg_run_count": 3.5,
+   "avg_failed_run_count": 2,
+   "last_seen": "2026-09-09"
   }
  },
  "daily": {
@@ -321,9 +361,9 @@
    "active_sec": 1992
   },
   "2026-09-09": {
-   "sessions": 1,
+   "sessions": 2,
    "accepted": 0,
-   "active_sec": 204
+   "active_sec": 252
   }
  },
  "records": [
@@ -588,6 +628,54 @@
    "solution": {
     "path": "3871-count-commas-in-range-ii/attempts/2026-09-09T04-24-43Z_9a45c6b9.py",
     "language": "python3"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "4529302e",
+   "problem": {
+    "frontend_id": "6",
+    "dir_key": "0006-zigzag-conversion",
+    "slug": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/zigzag-conversion/",
+    "topics": [
+     "string"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-09T19:39:23.104Z",
+   "ended_at": "2026-09-09T19:40:08.086Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-09T19:39:23.104Z",
+     "end": "2026-09-09T19:40:08.086Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 48,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "total_active_sec": 48,
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "logic_idea": "",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0006-zigzag-conversion/attempts/2026-09-09T19-39-23Z_4529302e.py",
+    "language": "python"
    },
    "attempt_number": 1
   }
