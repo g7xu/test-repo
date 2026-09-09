@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "session_id": "4529302e",
+  "problem": {
+    "frontend_id": "6",
+    "dir_key": "0006-zigzag-conversion",
+    "slug": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/zigzag-conversion/",
+    "topics": [
+      "string"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-09T19:39:23.104Z",
+  "ended_at": "2026-09-09T19:40:08.086Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-09T19:39:23.104Z",
+      "end": "2026-09-09T19:40:08.086Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 48,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 48,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0006-zigzag-conversion/attempts/2026-09-09T19-39-23Z_4529302e.py",
+    "language": "python"
+  }
+}
