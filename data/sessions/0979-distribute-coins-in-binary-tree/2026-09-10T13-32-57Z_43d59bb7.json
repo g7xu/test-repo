@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "session_id": "43d59bb7",
+  "problem": {
+    "frontend_id": "979",
+    "dir_key": "0979-distribute-coins-in-binary-tree",
+    "slug": "distribute-coins-in-binary-tree",
+    "title": "Distribute Coins in Binary Tree",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
+    "topics": [
+      "tree",
+      "depth-first-search",
+      "binary-tree",
+      "dp-on-trees"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-10T13:32:57.292Z",
+  "ended_at": "2026-09-10T13:52:22.918Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-10T13:32:57.292Z",
+      "end": "2026-09-10T13:52:22.918Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 1164,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 1164,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "parent has coin, child don't have coin\n\nchild has coin, parent don't have coin\n\n\ngraph, point with more coins as epxanding. BFS",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0979-distribute-coins-in-binary-tree/attempts/2026-09-10T13-32-57Z_43d59bb7.py",
+    "language": "python"
+  }
+}
