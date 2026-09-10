@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T13:32:55+00:00",
+ "generated_at": "2026-09-10T13:52:40+00:00",
  "totals": {
-  "problems": 7,
-  "sessions": 7,
+  "problems": 8,
+  "sessions": 8,
   "accepted": 4,
-  "gave_up": 3,
+  "gave_up": 4,
   "abandoned": 0
  },
  "problems": [
@@ -77,6 +77,25 @@
    "topics": [
     "math",
     "brainteaser"
+   ]
+  },
+  {
+   "dir_key": "0979-distribute-coins-in-binary-tree",
+   "slug": "distribute-coins-in-binary-tree",
+   "title": "Distribute Coins in Binary Tree",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-10T13:32:57.292Z",
+   "last_session_at": "2026-09-10T13:32:57.292Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "binary-tree",
+    "dp-on-trees"
    ]
   },
   {
@@ -322,6 +341,33 @@
     "depth-first-search",
     "breadth-first-search"
    ]
+  },
+  {
+   "session_id": "43d59bb7",
+   "dir_key": "0979-distribute-coins-in-binary-tree",
+   "title": "Distribute Coins in Binary Tree",
+   "difficulty": "Medium",
+   "date": "2026-09-10",
+   "started_at": "2026-09-10T13:32:57.292Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 1164,
+   "phase_totals_sec": {
+    "thinking": 1164,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": [],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "binary-tree",
+    "dp-on-trees"
+   ]
   }
  ],
  "tags": {
@@ -400,20 +446,20 @@
  },
  "topics": {
   "binary-tree": {
-   "session_count": 1,
-   "problem_count": 1,
+   "session_count": 2,
+   "problem_count": 2,
    "accepted": 1,
-   "gave_up": 0,
-   "give_up_rate": 0.0,
-   "avg_total_sec": 492,
-   "median_total_sec": 492,
+   "gave_up": 1,
+   "give_up_rate": 0.5,
+   "avg_total_sec": 828,
+   "median_total_sec": 828,
    "avg_phase_sec": {
-    "thinking": 210,
-    "writing": 264,
-    "reviewing": 18,
+    "thinking": 687,
+    "writing": 132,
+    "reviewing": 9,
     "debugging": 0
    },
-   "avg_run_count": 1,
+   "avg_run_count": 0.5,
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-10"
   },
@@ -454,20 +500,38 @@
    "last_seen": "2026-09-10"
   },
   "depth-first-search": {
-   "session_count": 2,
-   "problem_count": 2,
+   "session_count": 3,
+   "problem_count": 3,
    "accepted": 2,
-   "gave_up": 0,
-   "give_up_rate": 0.0,
-   "avg_total_sec": 525,
-   "median_total_sec": 525,
+   "gave_up": 1,
+   "give_up_rate": 0.333,
+   "avg_total_sec": 738,
+   "median_total_sec": 558,
    "avg_phase_sec": {
-    "thinking": 177,
-    "writing": 276,
-    "reviewing": 72,
+    "thinking": 506,
+    "writing": 184,
+    "reviewing": 48,
     "debugging": 0
    },
-   "avg_run_count": 1,
+   "avg_run_count": 0.7,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
+  },
+  "dp-on-trees": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 1164,
+   "median_total_sec": 1164,
+   "avg_phase_sec": {
+    "thinking": 1164,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-10"
   },
@@ -544,20 +608,20 @@
    "last_seen": "2026-09-09"
   },
   "tree": {
-   "session_count": 2,
-   "problem_count": 2,
+   "session_count": 3,
+   "problem_count": 3,
    "accepted": 2,
-   "gave_up": 0,
-   "give_up_rate": 0.0,
-   "avg_total_sec": 525,
-   "median_total_sec": 525,
+   "gave_up": 1,
+   "give_up_rate": 0.333,
+   "avg_total_sec": 738,
+   "median_total_sec": 558,
    "avg_phase_sec": {
-    "thinking": 177,
-    "writing": 276,
-    "reviewing": 72,
+    "thinking": 506,
+    "writing": 184,
+    "reviewing": 48,
     "debugging": 0
    },
-   "avg_run_count": 1,
+   "avg_run_count": 0.7,
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-10"
   }
@@ -574,9 +638,9 @@
    "active_sec": 252
   },
   "2026-09-10": {
-   "sessions": 2,
+   "sessions": 3,
    "accepted": 2,
-   "active_sec": 1050
+   "active_sec": 2214
   }
  },
  "records": [
@@ -1024,6 +1088,57 @@
    },
    "solution": {
     "path": "1376-time-needed-to-inform-all-employees/attempts/2026-09-10T13-18-35Z_843ffa31.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "43d59bb7",
+   "problem": {
+    "frontend_id": "979",
+    "dir_key": "0979-distribute-coins-in-binary-tree",
+    "slug": "distribute-coins-in-binary-tree",
+    "title": "Distribute Coins in Binary Tree",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
+    "topics": [
+     "tree",
+     "depth-first-search",
+     "binary-tree",
+     "dp-on-trees"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-10T13:32:57.292Z",
+   "ended_at": "2026-09-10T13:52:22.918Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-10T13:32:57.292Z",
+     "end": "2026-09-10T13:52:22.918Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 1164,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "total_active_sec": 1164,
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "logic_idea": "parent has coin, child don't have coin\n\nchild has coin, parent don't have coin\n\n\ngraph, point with more coins as epxanding. BFS",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0979-distribute-coins-in-binary-tree/attempts/2026-09-10T13-32-57Z_43d59bb7.py",
     "language": "python"
    },
    "attempt_number": 1
