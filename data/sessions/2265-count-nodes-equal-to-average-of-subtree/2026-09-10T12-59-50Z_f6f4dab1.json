@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "session_id": "f6f4dab1",
+  "problem": {
+    "frontend_id": "2265",
+    "dir_key": "2265-count-nodes-equal-to-average-of-subtree",
+    "slug": "count-nodes-equal-to-average-of-subtree",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+    "topics": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-10T12:59:50.718Z",
+  "ended_at": "2026-09-10T13:07:59.306Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-10T12:59:50.718Z",
+      "end": "2026-09-10T13:03:22.965Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-10T13:03:22.965Z",
+      "end": "2026-09-10T13:07:44.534Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-10T13:07:44.534Z",
+      "end": "2026-09-10T13:07:59.306Z",
+      "source": "manual"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+  },
+  "total_active_sec": 492,
+  "run_count": 1,
+  "failed_run_count": 0,
+  "submit_count": 1,
+  "logic_idea": "DFS\n\nnode\n\nparam\n- node\n\n- go left == \n- go right ===\n\n- get result\n\n\n- return\n- left sum, left count, right sum, right count, acc_sum",
+  "tags": [
+    "depth-first-search",
+    "tree"
+  ],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "2265-count-nodes-equal-to-average-of-subtree/attempts/2026-09-10T12-59-50Z_f6f4dab1.py",
+    "language": "python"
+  }
+}
