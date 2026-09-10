@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T13:52:40+00:00",
+ "generated_at": "2026-09-10T15:10:18+00:00",
  "totals": {
-  "problems": 8,
-  "sessions": 8,
+  "problems": 9,
+  "sessions": 9,
   "accepted": 4,
-  "gave_up": 4,
+  "gave_up": 5,
   "abandoned": 0
  },
  "problems": [
@@ -77,6 +77,22 @@
    "topics": [
     "math",
     "brainteaser"
+   ]
+  },
+  {
+   "dir_key": "0665-non-decreasing-array",
+   "slug": "non-decreasing-array",
+   "title": "Non-decreasing Array",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-10T14:54:55.408Z",
+   "last_session_at": "2026-09-10T14:54:55.408Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "array"
    ]
   },
   {
@@ -368,6 +384,30 @@
     "binary-tree",
     "dp-on-trees"
    ]
+  },
+  {
+   "session_id": "95500c81",
+   "dir_key": "0665-non-decreasing-array",
+   "title": "Non-decreasing Array",
+   "difficulty": "Medium",
+   "date": "2026-09-10",
+   "started_at": "2026-09-10T14:54:55.408Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 900,
+   "phase_totals_sec": {
+    "thinking": 54,
+    "writing": 462,
+    "reviewing": 342,
+    "debugging": 42
+   },
+   "run_count": 2,
+   "failed_run_count": 1,
+   "submit_count": 1,
+   "tags": [],
+   "topics": [
+    "array"
+   ]
   }
  ],
  "tags": {
@@ -445,6 +485,24 @@
   }
  },
  "topics": {
+  "array": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 900,
+   "median_total_sec": 900,
+   "avg_phase_sec": {
+    "thinking": 54,
+    "writing": 462,
+    "reviewing": 342,
+    "debugging": 42
+   },
+   "avg_run_count": 2,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-09-10"
+  },
   "binary-tree": {
    "session_count": 2,
    "problem_count": 2,
@@ -638,9 +696,9 @@
    "active_sec": 252
   },
   "2026-09-10": {
-   "sessions": 3,
+   "sessions": 4,
    "accepted": 2,
-   "active_sec": 2214
+   "active_sec": 3114
   }
  },
  "records": [
@@ -1139,6 +1197,72 @@
    },
    "solution": {
     "path": "0979-distribute-coins-in-binary-tree/attempts/2026-09-10T13-32-57Z_43d59bb7.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "95500c81",
+   "problem": {
+    "frontend_id": "665",
+    "dir_key": "0665-non-decreasing-array",
+    "slug": "non-decreasing-array",
+    "title": "Non-decreasing Array",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/non-decreasing-array/",
+    "topics": [
+     "array"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-10T14:54:55.408Z",
+   "ended_at": "2026-09-10T15:09:56.371Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-10T14:54:55.408Z",
+     "end": "2026-09-10T14:55:51.396Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-10T14:55:51.396Z",
+     "end": "2026-09-10T15:03:32.024Z",
+     "source": "auto"
+    },
+    {
+     "phase": "debugging",
+     "start": "2026-09-10T15:03:32.024Z",
+     "end": "2026-09-10T15:04:12.075Z",
+     "source": "auto"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-10T15:04:12.075Z",
+     "end": "2026-09-10T15:09:56.371Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 54,
+    "writing": 462,
+    "reviewing": 342,
+    "debugging": 42
+   },
+   "total_active_sec": 900,
+   "run_count": 2,
+   "failed_run_count": 1,
+   "submit_count": 1,
+   "logic_idea": "",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0665-non-decreasing-array/attempts/2026-09-10T14-54-55Z_95500c81.py",
     "language": "python"
    },
    "attempt_number": 1
