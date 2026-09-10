@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T13:08:33+00:00",
+ "generated_at": "2026-09-10T13:32:55+00:00",
  "totals": {
-  "problems": 6,
-  "sessions": 6,
-  "accepted": 3,
+  "problems": 7,
+  "sessions": 7,
+  "accepted": 4,
   "gave_up": 3,
   "abandoned": 0
  },
@@ -77,6 +77,27 @@
    "topics": [
     "math",
     "brainteaser"
+   ]
+  },
+  {
+   "dir_key": "1376-time-needed-to-inform-all-employees",
+   "slug": "time-needed-to-inform-all-employees",
+   "title": "Time Needed to Inform All Employees",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": true,
+   "gave_up_count": 0,
+   "first_session_at": "2026-09-10T13:18:35.895Z",
+   "last_session_at": "2026-09-10T13:18:35.895Z",
+   "best_total_sec": 558,
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search"
    ]
   },
   {
@@ -272,21 +293,50 @@
     "depth-first-search",
     "binary-tree"
    ]
+  },
+  {
+   "session_id": "843ffa31",
+   "dir_key": "1376-time-needed-to-inform-all-employees",
+   "title": "Time Needed to Inform All Employees",
+   "difficulty": "Medium",
+   "date": "2026-09-10",
+   "started_at": "2026-09-10T13:18:35.895Z",
+   "outcome": "accepted",
+   "attempt_number": 1,
+   "total_active_sec": 558,
+   "phase_totals_sec": {
+    "thinking": 144,
+    "writing": 288,
+    "reviewing": 126,
+    "debugging": 0
+   },
+   "run_count": 1,
+   "failed_run_count": 0,
+   "submit_count": 1,
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search"
+   ]
   }
  ],
  "tags": {
   "depth-first-search": {
-   "session_count": 1,
-   "problem_count": 1,
-   "accepted": 1,
+   "session_count": 2,
+   "problem_count": 2,
+   "accepted": 2,
    "gave_up": 0,
    "give_up_rate": 0.0,
-   "avg_total_sec": 492,
-   "median_total_sec": 492,
+   "avg_total_sec": 525,
+   "median_total_sec": 525,
    "avg_phase_sec": {
-    "thinking": 210,
-    "writing": 264,
-    "reviewing": 18,
+    "thinking": 177,
+    "writing": 276,
+    "reviewing": 72,
     "debugging": 0
    },
    "avg_run_count": 1,
@@ -330,17 +380,17 @@
    "last_seen": "2026-09-07"
   },
   "tree": {
-   "session_count": 1,
-   "problem_count": 1,
-   "accepted": 1,
+   "session_count": 2,
+   "problem_count": 2,
+   "accepted": 2,
    "gave_up": 0,
    "give_up_rate": 0.0,
-   "avg_total_sec": 492,
-   "median_total_sec": 492,
+   "avg_total_sec": 525,
+   "median_total_sec": 525,
    "avg_phase_sec": {
-    "thinking": 210,
-    "writing": 264,
-    "reviewing": 18,
+    "thinking": 177,
+    "writing": 276,
+    "reviewing": 72,
     "debugging": 0
    },
    "avg_run_count": 1,
@@ -385,18 +435,36 @@
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-07"
   },
-  "depth-first-search": {
+  "breadth-first-search": {
    "session_count": 1,
    "problem_count": 1,
    "accepted": 1,
    "gave_up": 0,
    "give_up_rate": 0.0,
-   "avg_total_sec": 492,
-   "median_total_sec": 492,
+   "avg_total_sec": 558,
+   "median_total_sec": 558,
    "avg_phase_sec": {
-    "thinking": 210,
-    "writing": 264,
-    "reviewing": 18,
+    "thinking": 144,
+    "writing": 288,
+    "reviewing": 126,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
+  },
+  "depth-first-search": {
+   "session_count": 2,
+   "problem_count": 2,
+   "accepted": 2,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 525,
+   "median_total_sec": 525,
+   "avg_phase_sec": {
+    "thinking": 177,
+    "writing": 276,
+    "reviewing": 72,
     "debugging": 0
    },
    "avg_run_count": 1,
@@ -476,17 +544,17 @@
    "last_seen": "2026-09-09"
   },
   "tree": {
-   "session_count": 1,
-   "problem_count": 1,
-   "accepted": 1,
+   "session_count": 2,
+   "problem_count": 2,
+   "accepted": 2,
    "gave_up": 0,
    "give_up_rate": 0.0,
-   "avg_total_sec": 492,
-   "median_total_sec": 492,
+   "avg_total_sec": 525,
+   "median_total_sec": 525,
    "avg_phase_sec": {
-    "thinking": 210,
-    "writing": 264,
-    "reviewing": 18,
+    "thinking": 177,
+    "writing": 276,
+    "reviewing": 72,
     "debugging": 0
    },
    "avg_run_count": 1,
@@ -506,9 +574,9 @@
    "active_sec": 252
   },
   "2026-09-10": {
-   "sessions": 1,
-   "accepted": 1,
-   "active_sec": 492
+   "sessions": 2,
+   "accepted": 2,
+   "active_sec": 1050
   }
  },
  "records": [
@@ -885,6 +953,77 @@
    },
    "solution": {
     "path": "2265-count-nodes-equal-to-average-of-subtree/attempts/2026-09-10T12-59-50Z_f6f4dab1.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "843ffa31",
+   "problem": {
+    "frontend_id": "1376",
+    "dir_key": "1376-time-needed-to-inform-all-employees",
+    "slug": "time-needed-to-inform-all-employees",
+    "title": "Time Needed to Inform All Employees",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/time-needed-to-inform-all-employees/",
+    "topics": [
+     "tree",
+     "depth-first-search",
+     "breadth-first-search"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-10T13:18:35.895Z",
+   "ended_at": "2026-09-10T13:32:34.886Z",
+   "outcome": "accepted",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-10T13:18:35.895Z",
+     "end": "2026-09-10T13:18:37.790Z",
+     "source": "auto"
+    },
+    {
+     "phase": "thinking",
+     "start": "2026-09-10T13:23:21.533Z",
+     "end": "2026-09-10T13:25:44.568Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-10T13:25:44.568Z",
+     "end": "2026-09-10T13:30:29.741Z",
+     "source": "auto"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-10T13:30:29.741Z",
+     "end": "2026-09-10T13:32:34.886Z",
+     "source": "manual"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 144,
+    "writing": 288,
+    "reviewing": 126,
+    "debugging": 0
+   },
+   "total_active_sec": 558,
+   "run_count": 1,
+   "failed_run_count": 0,
+   "submit_count": 1,
+   "logic_idea": "res = -1\n\nhastable manage -> sub-em list\n\nBFS\n\nqueue (i-th, time)\n- update the res\n- push its subs into the queue\n-",
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "1376-time-needed-to-inform-all-employees/attempts/2026-09-10T13-18-35Z_843ffa31.py",
     "language": "python"
    },
    "attempt_number": 1
