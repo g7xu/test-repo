@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-09T19:40:24+00:00",
+ "generated_at": "2026-09-10T13:08:33+00:00",
  "totals": {
-  "problems": 5,
-  "sessions": 5,
-  "accepted": 2,
+  "problems": 6,
+  "sessions": 6,
+  "accepted": 3,
   "gave_up": 3,
   "abandoned": 0
  },
@@ -77,6 +77,27 @@
    "topics": [
     "math",
     "brainteaser"
+   ]
+  },
+  {
+   "dir_key": "2265-count-nodes-equal-to-average-of-subtree",
+   "slug": "count-nodes-equal-to-average-of-subtree",
+   "title": "Count Nodes Equal to Average of Subtree",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": true,
+   "gave_up_count": 0,
+   "first_session_at": "2026-09-10T12:59:50.718Z",
+   "last_session_at": "2026-09-10T12:59:50.718Z",
+   "best_total_sec": 492,
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
    ]
   },
   {
@@ -222,9 +243,56 @@
    "topics": [
     "string"
    ]
+  },
+  {
+   "session_id": "f6f4dab1",
+   "dir_key": "2265-count-nodes-equal-to-average-of-subtree",
+   "title": "Count Nodes Equal to Average of Subtree",
+   "difficulty": "Medium",
+   "date": "2026-09-10",
+   "started_at": "2026-09-10T12:59:50.718Z",
+   "outcome": "accepted",
+   "attempt_number": 1,
+   "total_active_sec": 492,
+   "phase_totals_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "run_count": 1,
+   "failed_run_count": 0,
+   "submit_count": 1,
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "topics": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+   ]
   }
  ],
  "tags": {
+  "depth-first-search": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 492,
+   "median_total_sec": 492,
+   "avg_phase_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
+  },
   "linked-list": {
    "session_count": 1,
    "problem_count": 1,
@@ -260,9 +328,45 @@
    "avg_run_count": 7,
    "avg_failed_run_count": 4,
    "last_seen": "2026-09-07"
+  },
+  "tree": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 492,
+   "median_total_sec": 492,
+   "avg_phase_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
   }
  },
  "topics": {
+  "binary-tree": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 492,
+   "median_total_sec": 492,
+   "avg_phase_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
+  },
   "brainteaser": {
    "session_count": 1,
    "problem_count": 1,
@@ -280,6 +384,24 @@
    "avg_run_count": 0,
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-07"
+  },
+  "depth-first-search": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 492,
+   "median_total_sec": 492,
+   "avg_phase_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
   },
   "linked-list": {
    "session_count": 1,
@@ -352,6 +474,24 @@
    "avg_run_count": 3.5,
    "avg_failed_run_count": 2,
    "last_seen": "2026-09-09"
+  },
+  "tree": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 1,
+   "gave_up": 0,
+   "give_up_rate": 0.0,
+   "avg_total_sec": 492,
+   "median_total_sec": 492,
+   "avg_phase_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "avg_run_count": 1,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-10"
   }
  },
  "daily": {
@@ -364,6 +504,11 @@
    "sessions": 2,
    "accepted": 0,
    "active_sec": 252
+  },
+  "2026-09-10": {
+   "sessions": 1,
+   "accepted": 1,
+   "active_sec": 492
   }
  },
  "records": [
@@ -675,6 +820,71 @@
    },
    "solution": {
     "path": "0006-zigzag-conversion/attempts/2026-09-09T19-39-23Z_4529302e.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "f6f4dab1",
+   "problem": {
+    "frontend_id": "2265",
+    "dir_key": "2265-count-nodes-equal-to-average-of-subtree",
+    "slug": "count-nodes-equal-to-average-of-subtree",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+    "topics": [
+     "tree",
+     "depth-first-search",
+     "binary-tree"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-10T12:59:50.718Z",
+   "ended_at": "2026-09-10T13:07:59.306Z",
+   "outcome": "accepted",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-10T12:59:50.718Z",
+     "end": "2026-09-10T13:03:22.965Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-10T13:03:22.965Z",
+     "end": "2026-09-10T13:07:44.534Z",
+     "source": "auto"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-10T13:07:44.534Z",
+     "end": "2026-09-10T13:07:59.306Z",
+     "source": "manual"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 210,
+    "writing": 264,
+    "reviewing": 18,
+    "debugging": 0
+   },
+   "total_active_sec": 492,
+   "run_count": 1,
+   "failed_run_count": 0,
+   "submit_count": 1,
+   "logic_idea": "DFS\n\nnode\n\nparam\n- node\n\n- go left == \n- go right ===\n\n- get result\n\n\n- return\n- left sum, left count, right sum, right count, acc_sum",
+   "tags": [
+    "depth-first-search",
+    "tree"
+   ],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "2265-count-nodes-equal-to-average-of-subtree/attempts/2026-09-10T12-59-50Z_f6f4dab1.py",
     "language": "python"
    },
    "attempt_number": 1
