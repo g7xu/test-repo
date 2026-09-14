@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "session_id": "2764dcc1",
+  "problem": {
+    "frontend_id": "3161",
+    "dir_key": "3161-block-placement-queries",
+    "slug": "block-placement-queries",
+    "title": "Block Placement Queries",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/block-placement-queries/",
+    "topics": [
+      "array",
+      "binary-search",
+      "binary-indexed-tree",
+      "segment-tree",
+      "ordered-set"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-14T15:47:43.848Z",
+  "ended_at": "2026-09-14T16:12:34.320Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-14T15:47:43.848Z",
+      "end": "2026-09-14T15:50:25.605Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-14T15:50:25.605Z",
+      "end": "2026-09-14T16:03:11.777Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T16:03:11.777Z",
+      "end": "2026-09-14T16:03:18.735Z",
+      "source": "manual"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-14T16:03:18.735Z",
+      "end": "2026-09-14T16:09:30.988Z",
+      "source": "manual"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T16:09:30.988Z",
+      "end": "2026-09-14T16:10:18.933Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-14T16:10:18.933Z",
+      "end": "2026-09-14T16:12:34.320Z",
+      "source": "manual"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+  },
+  "total_active_sec": 1494,
+  "run_count": 6,
+  "failed_run_count": 4,
+  "submit_count": 2,
+  "logic_idea": "binary search problem\n\n\nwhen we are building an obstacle, we will do binary search and insert\n\n0, x -- look for all the space using linear search\n\nO(n^2)",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "3161-block-placement-queries/attempts/2026-09-14T15-47-43Z_2764dcc1.py",
+    "language": "python"
+  }
+}
