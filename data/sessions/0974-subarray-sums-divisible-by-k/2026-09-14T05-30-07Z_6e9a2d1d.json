@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "session_id": "6e9a2d1d",
+  "problem": {
+    "frontend_id": "974",
+    "dir_key": "0974-subarray-sums-divisible-by-k",
+    "slug": "subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+    "topics": [
+      "array",
+      "hash-table",
+      "prefix-sum"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-14T05:30:07.830Z",
+  "ended_at": "2026-09-14T05:38:37.056Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-14T05:30:07.830Z",
+      "end": "2026-09-14T05:31:50.095Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-14T05:31:50.095Z",
+      "end": "2026-09-14T05:36:27.529Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-14T05:36:27.529Z",
+      "end": "2026-09-14T05:37:57.866Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T05:37:57.866Z",
+      "end": "2026-09-14T05:38:37.056Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 102,
+    "writing": 276,
+    "reviewing": 42,
+    "debugging": 90
+  },
+  "total_active_sec": 510,
+  "run_count": 3,
+  "failed_run_count": 2,
+  "submit_count": 1,
+  "logic_idea": "accumulatiive sum\n\nand pointier\n\nO(n^2)",
+  "tags": [],
+  "comments": "time limit exceed",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0974-subarray-sums-divisible-by-k/attempts/2026-09-14T05-30-07Z_6e9a2d1d.py",
+    "language": "python"
+  }
+}
