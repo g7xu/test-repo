@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "session_id": "0f7780d5",
+  "problem": {
+    "frontend_id": "1834",
+    "dir_key": "1834-single-threaded-cpu",
+    "slug": "single-threaded-cpu",
+    "title": "Single-Threaded CPU",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/single-threaded-cpu/",
+    "topics": [
+      "array",
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-14T04:48:37.402Z",
+  "ended_at": "2026-09-14T05:29:24.696Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-14T04:48:37.402Z",
+      "end": "2026-09-14T04:54:21.828Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-14T04:54:21.828Z",
+      "end": "2026-09-14T05:01:58.811Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-14T05:14:29.442Z",
+      "end": "2026-09-14T05:19:22.907Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T05:19:22.907Z",
+      "end": "2026-09-14T05:19:38.335Z",
+      "source": "manual"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-14T05:19:38.335Z",
+      "end": "2026-09-14T05:29:03.417Z",
+      "source": "auto"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T05:29:03.417Z",
+      "end": "2026-09-14T05:29:24.696Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 342,
+    "writing": 750,
+    "reviewing": 36,
+    "debugging": 564
+  },
+  "total_active_sec": 1692,
+  "run_count": 8,
+  "failed_run_count": 7,
+  "submit_count": 2,
+  "logic_idea": "heap, processTime, index, and enqueTime\n\nheap with enqueueTime\n\ncurrent_time\n\nwhile enque heap:\n    pop until > currentime\n\n    if still empty, fast foward time and add the top one\n\n    process and update result",
+  "tags": [
+    "heap-priority-queue",
+    "array"
+  ],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "1834-single-threaded-cpu/attempts/2026-09-14T04-48-37Z_0f7780d5.py",
+    "language": "python"
+  }
+}
