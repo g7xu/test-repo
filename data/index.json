@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T15:10:18+00:00",
+ "generated_at": "2026-09-14T01:31:56+00:00",
  "totals": {
-  "problems": 9,
-  "sessions": 9,
+  "problems": 10,
+  "sessions": 10,
   "accepted": 4,
-  "gave_up": 5,
+  "gave_up": 6,
   "abandoned": 0
  },
  "problems": [
@@ -93,6 +93,23 @@
    "tags": [],
    "topics": [
     "array"
+   ]
+  },
+  {
+   "dir_key": "0836-rectangle-overlap",
+   "slug": "rectangle-overlap",
+   "title": "Rectangle Overlap",
+   "difficulty": "Easy",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-14T01:22:52.813Z",
+   "last_session_at": "2026-09-14T01:22:52.813Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "math",
+    "geometry"
    ]
   },
   {
@@ -408,6 +425,31 @@
    "topics": [
     "array"
    ]
+  },
+  {
+   "session_id": "b5566323",
+   "dir_key": "0836-rectangle-overlap",
+   "title": "Rectangle Overlap",
+   "difficulty": "Easy",
+   "date": "2026-09-14",
+   "started_at": "2026-09-14T01:22:52.813Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 522,
+   "phase_totals_sec": {
+    "thinking": 522,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": [],
+   "topics": [
+    "math",
+    "geometry"
+   ]
   }
  ],
  "tags": {
@@ -593,6 +635,24 @@
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-10"
   },
+  "geometry": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 522,
+   "median_total_sec": 522,
+   "avg_phase_sec": {
+    "thinking": 522,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-14"
+  },
   "linked-list": {
    "session_count": 1,
    "problem_count": 1,
@@ -612,22 +672,22 @@
    "last_seen": "2026-09-07"
   },
   "math": {
-   "session_count": 2,
-   "problem_count": 2,
+   "session_count": 3,
+   "problem_count": 3,
    "accepted": 0,
-   "gave_up": 2,
+   "gave_up": 3,
    "give_up_rate": 1.0,
-   "avg_total_sec": 255,
-   "median_total_sec": 255,
+   "avg_total_sec": 344,
+   "median_total_sec": 306,
    "avg_phase_sec": {
-    "thinking": 255,
+    "thinking": 344,
     "writing": 0,
     "reviewing": 0,
     "debugging": 0
    },
    "avg_run_count": 0,
    "avg_failed_run_count": 0,
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-14"
   },
   "recursion": {
    "session_count": 1,
@@ -699,6 +759,11 @@
    "sessions": 4,
    "accepted": 2,
    "active_sec": 3114
+  },
+  "2026-09-14": {
+   "sessions": 1,
+   "accepted": 0,
+   "active_sec": 522
   }
  },
  "records": [
@@ -1263,6 +1328,55 @@
    },
    "solution": {
     "path": "0665-non-decreasing-array/attempts/2026-09-10T14-54-55Z_95500c81.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "b5566323",
+   "problem": {
+    "frontend_id": "836",
+    "dir_key": "0836-rectangle-overlap",
+    "slug": "rectangle-overlap",
+    "title": "Rectangle Overlap",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/rectangle-overlap/",
+    "topics": [
+     "math",
+     "geometry"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-14T01:22:52.813Z",
+   "ended_at": "2026-09-14T01:31:31.771Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-14T01:22:52.813Z",
+     "end": "2026-09-14T01:31:31.771Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 522,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "total_active_sec": 522,
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "logic_idea": "",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0836-rectangle-overlap/attempts/2026-09-14T01-22-52Z_b5566323.py",
     "language": "python"
    },
    "attempt_number": 1
