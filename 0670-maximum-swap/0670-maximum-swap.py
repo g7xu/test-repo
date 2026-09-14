@@ -9,19 +9,23 @@ class Solution(object):
         best = sorted(numList, key = lambda x: -x)
 
         p = 0
-        first = False
         tmp_best = None
+        tmp = None
         while p < len(numList):
-            if best[p] != numList[p] and not first:
+            if best[p] != numList[p]:
                 tmp = numList[p]
                 tmp_best = best[p]
                 numList[p] = best[p]
-                first = True
-            elif tmp_best is not None and numList[p] == tmp_best:
-                numList[p] = tmp
                 break
             
             p += 1
+
+        if tmp_best is not None:
+            for i in range(len(numList) - 1, -1, -1):
+                if numList[i] == tmp_best:
+                    numList[i] = tmp
+                    break
+
 
         res = 0
         for i in range(len(numList)):
