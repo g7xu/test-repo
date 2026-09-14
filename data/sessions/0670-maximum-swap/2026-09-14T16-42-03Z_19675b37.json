@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "session_id": "19675b37",
+  "problem": {
+    "frontend_id": "670",
+    "dir_key": "0670-maximum-swap",
+    "slug": "maximum-swap",
+    "title": "Maximum Swap",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/maximum-swap/",
+    "topics": [
+      "math",
+      "greedy"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-14T16:42:03.338Z",
+  "ended_at": "2026-09-14T16:52:59.446Z",
+  "outcome": "accepted",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-14T16:42:03.338Z",
+      "end": "2026-09-14T16:42:24.725Z",
+      "source": "auto"
+    },
+    {
+      "phase": "writing",
+      "start": "2026-09-14T16:42:24.725Z",
+      "end": "2026-09-14T16:45:39.422Z",
+      "source": "auto"
+    },
+    {
+      "phase": "debugging",
+      "start": "2026-09-14T16:45:39.422Z",
+      "end": "2026-09-14T16:52:41.708Z",
+      "source": "manual"
+    },
+    {
+      "phase": "reviewing",
+      "start": "2026-09-14T16:52:41.708Z",
+      "end": "2026-09-14T16:52:59.446Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 18,
+    "writing": 198,
+    "reviewing": 18,
+    "debugging": 420
+  },
+  "total_active_sec": 654,
+  "run_count": 8,
+  "failed_run_count": 5,
+  "submit_count": 2,
+  "logic_idea": "n log n\n\nsorted\n\ntwo pointer\n\nfirst dif, and then do linear to find the responding idx and replace",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0670-maximum-swap/attempts/2026-09-14T16-42-03Z_19675b37.py",
+    "language": "python"
+  }
+}
