@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T16:42:13+00:00",
+ "generated_at": "2026-09-14T16:53:15+00:00",
  "totals": {
   "problems": 14,
-  "sessions": 14,
-  "accepted": 5,
+  "sessions": 15,
+  "accepted": 6,
   "gave_up": 9,
   "abandoned": 0
  },
@@ -100,12 +100,12 @@
    "slug": "maximum-swap",
    "title": "Maximum Swap",
    "difficulty": "Medium",
-   "attempts": 1,
-   "solved": false,
+   "attempts": 2,
+   "solved": true,
    "gave_up_count": 1,
    "first_session_at": "2026-09-14T16:23:49.672Z",
-   "last_session_at": "2026-09-14T16:23:49.672Z",
-   "best_total_sec": null,
+   "last_session_at": "2026-09-14T16:42:03.338Z",
+   "best_total_sec": 654,
    "tags": [],
    "topics": [
     "math",
@@ -634,6 +634,31 @@
     "math",
     "greedy"
    ]
+  },
+  {
+   "session_id": "19675b37",
+   "dir_key": "0670-maximum-swap",
+   "title": "Maximum Swap",
+   "difficulty": "Medium",
+   "date": "2026-09-14",
+   "started_at": "2026-09-14T16:42:03.338Z",
+   "outcome": "accepted",
+   "attempt_number": 2,
+   "total_active_sec": 654,
+   "phase_totals_sec": {
+    "thinking": 18,
+    "writing": 198,
+    "reviewing": 18,
+    "debugging": 420
+   },
+   "run_count": 8,
+   "failed_run_count": 5,
+   "submit_count": 2,
+   "tags": [],
+   "topics": [
+    "math",
+    "greedy"
+   ]
   }
  ],
  "tags": {
@@ -910,20 +935,20 @@
    "last_seen": "2026-09-14"
   },
   "greedy": {
-   "session_count": 1,
+   "session_count": 2,
    "problem_count": 1,
-   "accepted": 0,
+   "accepted": 1,
    "gave_up": 1,
-   "give_up_rate": 1.0,
-   "avg_total_sec": 1092,
-   "median_total_sec": 1092,
+   "give_up_rate": 0.5,
+   "avg_total_sec": 873,
+   "median_total_sec": 873,
    "avg_phase_sec": {
-    "thinking": 426,
-    "writing": 378,
-    "reviewing": 30,
-    "debugging": 258
+    "thinking": 222,
+    "writing": 288,
+    "reviewing": 24,
+    "debugging": 339
    },
-   "avg_run_count": 6,
+   "avg_run_count": 7,
    "avg_failed_run_count": 5,
    "last_seen": "2026-09-14"
   },
@@ -982,21 +1007,21 @@
    "last_seen": "2026-09-07"
   },
   "math": {
-   "session_count": 4,
+   "session_count": 5,
    "problem_count": 4,
-   "accepted": 0,
+   "accepted": 1,
    "gave_up": 4,
-   "give_up_rate": 1.0,
-   "avg_total_sec": 531,
-   "median_total_sec": 414,
+   "give_up_rate": 0.8,
+   "avg_total_sec": 556,
+   "median_total_sec": 522,
    "avg_phase_sec": {
-    "thinking": 364,
-    "writing": 94,
-    "reviewing": 8,
-    "debugging": 64
+    "thinking": 295,
+    "writing": 115,
+    "reviewing": 10,
+    "debugging": 136
    },
-   "avg_run_count": 1.5,
-   "avg_failed_run_count": 1.2,
+   "avg_run_count": 2.8,
+   "avg_failed_run_count": 2,
    "last_seen": "2026-09-14"
   },
   "ordered-set": {
@@ -1143,9 +1168,9 @@
    "active_sec": 3114
   },
   "2026-09-14": {
-   "sessions": 5,
-   "accepted": 1,
-   "active_sec": 5310
+   "sessions": 6,
+   "accepted": 2,
+   "active_sec": 5964
   }
  },
  "records": [
@@ -2074,6 +2099,73 @@
     "language": "python"
    },
    "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "19675b37",
+   "problem": {
+    "frontend_id": "670",
+    "dir_key": "0670-maximum-swap",
+    "slug": "maximum-swap",
+    "title": "Maximum Swap",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/maximum-swap/",
+    "topics": [
+     "math",
+     "greedy"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-14T16:42:03.338Z",
+   "ended_at": "2026-09-14T16:52:59.446Z",
+   "outcome": "accepted",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-14T16:42:03.338Z",
+     "end": "2026-09-14T16:42:24.725Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-14T16:42:24.725Z",
+     "end": "2026-09-14T16:45:39.422Z",
+     "source": "auto"
+    },
+    {
+     "phase": "debugging",
+     "start": "2026-09-14T16:45:39.422Z",
+     "end": "2026-09-14T16:52:41.708Z",
+     "source": "manual"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-14T16:52:41.708Z",
+     "end": "2026-09-14T16:52:59.446Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 18,
+    "writing": 198,
+    "reviewing": 18,
+    "debugging": 420
+   },
+   "total_active_sec": 654,
+   "run_count": 8,
+   "failed_run_count": 5,
+   "submit_count": 2,
+   "logic_idea": "n log n\n\nsorted\n\ntwo pointer\n\nfirst dif, and then do linear to find the responding idx and replace",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0670-maximum-swap/attempts/2026-09-14T16-42-03Z_19675b37.py",
+    "language": "python"
+   },
+   "attempt_number": 2
   }
  ]
 }
