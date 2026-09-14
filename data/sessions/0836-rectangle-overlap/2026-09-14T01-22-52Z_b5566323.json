@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "session_id": "b5566323",
+  "problem": {
+    "frontend_id": "836",
+    "dir_key": "0836-rectangle-overlap",
+    "slug": "rectangle-overlap",
+    "title": "Rectangle Overlap",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/rectangle-overlap/",
+    "topics": [
+      "math",
+      "geometry"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-14T01:22:52.813Z",
+  "ended_at": "2026-09-14T01:31:31.771Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-14T01:22:52.813Z",
+      "end": "2026-09-14T01:31:31.771Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 522,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 522,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "0836-rectangle-overlap/attempts/2026-09-14T01-22-52Z_b5566323.py",
+    "language": "python"
+  }
+}
