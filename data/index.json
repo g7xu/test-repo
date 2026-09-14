@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T05:39:05+00:00",
+ "generated_at": "2026-09-14T16:12:57+00:00",
  "totals": {
-  "problems": 12,
-  "sessions": 12,
+  "problems": 13,
+  "sessions": 13,
   "accepted": 5,
-  "gave_up": 7,
+  "gave_up": 8,
   "abandoned": 0
  },
  "problems": [
@@ -210,6 +210,26 @@
     "tree",
     "depth-first-search",
     "binary-tree"
+   ]
+  },
+  {
+   "dir_key": "3161-block-placement-queries",
+   "slug": "block-placement-queries",
+   "title": "Block Placement Queries",
+   "difficulty": "Hard",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-14T15:47:43.848Z",
+   "last_session_at": "2026-09-14T15:47:43.848Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "array",
+    "binary-search",
+    "binary-indexed-tree",
+    "segment-tree",
+    "ordered-set"
    ]
   },
   {
@@ -544,6 +564,34 @@
     "hash-table",
     "prefix-sum"
    ]
+  },
+  {
+   "session_id": "2764dcc1",
+   "dir_key": "3161-block-placement-queries",
+   "title": "Block Placement Queries",
+   "difficulty": "Hard",
+   "date": "2026-09-14",
+   "started_at": "2026-09-14T15:47:43.848Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 1494,
+   "phase_totals_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "run_count": 6,
+   "failed_run_count": 4,
+   "submit_count": 2,
+   "tags": [],
+   "topics": [
+    "array",
+    "binary-search",
+    "binary-indexed-tree",
+    "segment-tree",
+    "ordered-set"
+   ]
   }
  ],
  "tags": {
@@ -658,21 +706,57 @@
  },
  "topics": {
   "array": {
-   "session_count": 3,
-   "problem_count": 3,
+   "session_count": 4,
+   "problem_count": 4,
    "accepted": 1,
-   "gave_up": 2,
-   "give_up_rate": 0.667,
-   "avg_total_sec": 1034,
-   "median_total_sec": 900,
+   "gave_up": 3,
+   "give_up_rate": 0.75,
+   "avg_total_sec": 1149,
+   "median_total_sec": 1197,
    "avg_phase_sec": {
-    "thinking": 166,
-    "writing": 496,
-    "reviewing": 140,
-    "debugging": 232
+    "thinking": 165,
+    "writing": 564,
+    "reviewing": 118,
+    "debugging": 302
    },
-   "avg_run_count": 4.3,
-   "avg_failed_run_count": 3.3,
+   "avg_run_count": 4.8,
+   "avg_failed_run_count": 3.5,
+   "last_seen": "2026-09-14"
+  },
+  "binary-indexed-tree": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 1494,
+   "median_total_sec": 1494,
+   "avg_phase_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "avg_run_count": 6,
+   "avg_failed_run_count": 4,
+   "last_seen": "2026-09-14"
+  },
+  "binary-search": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 1494,
+   "median_total_sec": 1494,
+   "avg_phase_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "avg_run_count": 6,
+   "avg_failed_run_count": 4,
    "last_seen": "2026-09-14"
   },
   "binary-tree": {
@@ -855,6 +939,24 @@
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-14"
   },
+  "ordered-set": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 1494,
+   "median_total_sec": 1494,
+   "avg_phase_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "avg_run_count": 6,
+   "avg_failed_run_count": 4,
+   "last_seen": "2026-09-14"
+  },
   "prefix-sum": {
    "session_count": 1,
    "problem_count": 1,
@@ -890,6 +992,24 @@
    "avg_run_count": 10,
    "avg_failed_run_count": 9,
    "last_seen": "2026-09-07"
+  },
+  "segment-tree": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 1494,
+   "median_total_sec": 1494,
+   "avg_phase_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "avg_run_count": 6,
+   "avg_failed_run_count": 4,
+   "last_seen": "2026-09-14"
   },
   "sorting": {
    "session_count": 1,
@@ -963,9 +1083,9 @@
    "active_sec": 3114
   },
   "2026-09-14": {
-   "sessions": 3,
+   "sessions": 4,
    "accepted": 1,
-   "active_sec": 2724
+   "active_sec": 4218
   }
  },
  "records": [
@@ -1730,6 +1850,88 @@
    },
    "solution": {
     "path": "0974-subarray-sums-divisible-by-k/attempts/2026-09-14T05-30-07Z_6e9a2d1d.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "2764dcc1",
+   "problem": {
+    "frontend_id": "3161",
+    "dir_key": "3161-block-placement-queries",
+    "slug": "block-placement-queries",
+    "title": "Block Placement Queries",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/block-placement-queries/",
+    "topics": [
+     "array",
+     "binary-search",
+     "binary-indexed-tree",
+     "segment-tree",
+     "ordered-set"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-14T15:47:43.848Z",
+   "ended_at": "2026-09-14T16:12:34.320Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-14T15:47:43.848Z",
+     "end": "2026-09-14T15:50:25.605Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-14T15:50:25.605Z",
+     "end": "2026-09-14T16:03:11.777Z",
+     "source": "auto"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-14T16:03:11.777Z",
+     "end": "2026-09-14T16:03:18.735Z",
+     "source": "manual"
+    },
+    {
+     "phase": "debugging",
+     "start": "2026-09-14T16:03:18.735Z",
+     "end": "2026-09-14T16:09:30.988Z",
+     "source": "manual"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-14T16:09:30.988Z",
+     "end": "2026-09-14T16:10:18.933Z",
+     "source": "auto"
+    },
+    {
+     "phase": "debugging",
+     "start": "2026-09-14T16:10:18.933Z",
+     "end": "2026-09-14T16:12:34.320Z",
+     "source": "manual"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 162,
+    "writing": 768,
+    "reviewing": 54,
+    "debugging": 510
+   },
+   "total_active_sec": 1494,
+   "run_count": 6,
+   "failed_run_count": 4,
+   "submit_count": 2,
+   "logic_idea": "binary search problem\n\n\nwhen we are building an obstacle, we will do binary search and insert\n\n0, x -- look for all the space using linear search\n\nO(n^2)",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "3161-block-placement-queries/attempts/2026-09-14T15-47-43Z_2764dcc1.py",
     "language": "python"
    },
    "attempt_number": 1
