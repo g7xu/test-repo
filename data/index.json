@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T05:29:49+00:00",
+ "generated_at": "2026-09-14T05:39:05+00:00",
  "totals": {
-  "problems": 11,
-  "sessions": 11,
+  "problems": 12,
+  "sessions": 12,
   "accepted": 5,
-  "gave_up": 6,
+  "gave_up": 7,
   "abandoned": 0
  },
  "problems": [
@@ -110,6 +110,24 @@
    "topics": [
     "math",
     "geometry"
+   ]
+  },
+  {
+   "dir_key": "0974-subarray-sums-divisible-by-k",
+   "slug": "subarray-sums-divisible-by-k",
+   "title": "Subarray Sums Divisible by K",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-14T05:30:07.830Z",
+   "last_session_at": "2026-09-14T05:30:07.830Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "array",
+    "hash-table",
+    "prefix-sum"
    ]
   },
   {
@@ -500,6 +518,32 @@
     "sorting",
     "heap-priority-queue"
    ]
+  },
+  {
+   "session_id": "6e9a2d1d",
+   "dir_key": "0974-subarray-sums-divisible-by-k",
+   "title": "Subarray Sums Divisible by K",
+   "difficulty": "Medium",
+   "date": "2026-09-14",
+   "started_at": "2026-09-14T05:30:07.830Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 510,
+   "phase_totals_sec": {
+    "thinking": 102,
+    "writing": 276,
+    "reviewing": 42,
+    "debugging": 90
+   },
+   "run_count": 3,
+   "failed_run_count": 2,
+   "submit_count": 1,
+   "tags": [],
+   "topics": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+   ]
   }
  ],
  "tags": {
@@ -614,21 +658,21 @@
  },
  "topics": {
   "array": {
-   "session_count": 2,
-   "problem_count": 2,
+   "session_count": 3,
+   "problem_count": 3,
    "accepted": 1,
-   "gave_up": 1,
-   "give_up_rate": 0.5,
-   "avg_total_sec": 1296,
-   "median_total_sec": 1296,
+   "gave_up": 2,
+   "give_up_rate": 0.667,
+   "avg_total_sec": 1034,
+   "median_total_sec": 900,
    "avg_phase_sec": {
-    "thinking": 198,
-    "writing": 606,
-    "reviewing": 189,
-    "debugging": 303
+    "thinking": 166,
+    "writing": 496,
+    "reviewing": 140,
+    "debugging": 232
    },
-   "avg_run_count": 5,
-   "avg_failed_run_count": 4,
+   "avg_run_count": 4.3,
+   "avg_failed_run_count": 3.3,
    "last_seen": "2026-09-14"
   },
   "binary-tree": {
@@ -739,6 +783,24 @@
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-14"
   },
+  "hash-table": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 510,
+   "median_total_sec": 510,
+   "avg_phase_sec": {
+    "thinking": 102,
+    "writing": 276,
+    "reviewing": 42,
+    "debugging": 90
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 2,
+   "last_seen": "2026-09-14"
+  },
   "heap-priority-queue": {
    "session_count": 1,
    "problem_count": 1,
@@ -791,6 +853,24 @@
    },
    "avg_run_count": 0,
    "avg_failed_run_count": 0,
+   "last_seen": "2026-09-14"
+  },
+  "prefix-sum": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 510,
+   "median_total_sec": 510,
+   "avg_phase_sec": {
+    "thinking": 102,
+    "writing": 276,
+    "reviewing": 42,
+    "debugging": 90
+   },
+   "avg_run_count": 3,
+   "avg_failed_run_count": 2,
    "last_seen": "2026-09-14"
   },
   "recursion": {
@@ -883,9 +963,9 @@
    "active_sec": 3114
   },
   "2026-09-14": {
-   "sessions": 2,
+   "sessions": 3,
    "accepted": 1,
-   "active_sec": 2214
+   "active_sec": 2724
   }
  },
  "records": [
@@ -1582,6 +1662,74 @@
    },
    "solution": {
     "path": "1834-single-threaded-cpu/attempts/2026-09-14T04-48-37Z_0f7780d5.py",
+    "language": "python"
+   },
+   "attempt_number": 1
+  },
+  {
+   "schema_version": 2,
+   "session_id": "6e9a2d1d",
+   "problem": {
+    "frontend_id": "974",
+    "dir_key": "0974-subarray-sums-divisible-by-k",
+    "slug": "subarray-sums-divisible-by-k",
+    "title": "Subarray Sums Divisible by K",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+    "topics": [
+     "array",
+     "hash-table",
+     "prefix-sum"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-14T05:30:07.830Z",
+   "ended_at": "2026-09-14T05:38:37.056Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-14T05:30:07.830Z",
+     "end": "2026-09-14T05:31:50.095Z",
+     "source": "auto"
+    },
+    {
+     "phase": "writing",
+     "start": "2026-09-14T05:31:50.095Z",
+     "end": "2026-09-14T05:36:27.529Z",
+     "source": "auto"
+    },
+    {
+     "phase": "debugging",
+     "start": "2026-09-14T05:36:27.529Z",
+     "end": "2026-09-14T05:37:57.866Z",
+     "source": "auto"
+    },
+    {
+     "phase": "reviewing",
+     "start": "2026-09-14T05:37:57.866Z",
+     "end": "2026-09-14T05:38:37.056Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 102,
+    "writing": 276,
+    "reviewing": 42,
+    "debugging": 90
+   },
+   "total_active_sec": 510,
+   "run_count": 3,
+   "failed_run_count": 2,
+   "submit_count": 1,
+   "logic_idea": "accumulatiive sum\n\nand pointier\n\nO(n^2)",
+   "tags": [],
+   "comments": "time limit exceed",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "0974-subarray-sums-divisible-by-k/attempts/2026-09-14T05-30-07Z_6e9a2d1d.py",
     "language": "python"
    },
    "attempt_number": 1
