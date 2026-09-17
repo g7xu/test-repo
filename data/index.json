@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T16:53:15+00:00",
+ "generated_at": "2026-09-17T05:04:28+00:00",
  "totals": {
-  "problems": 14,
-  "sessions": 15,
+  "problems": 15,
+  "sessions": 16,
   "accepted": 6,
-  "gave_up": 9,
+  "gave_up": 10,
   "abandoned": 0
  },
  "problems": [
@@ -185,6 +185,26 @@
     "tree",
     "depth-first-search",
     "breadth-first-search"
+   ]
+  },
+  {
+   "dir_key": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum",
+   "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+   "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+   "difficulty": "Medium",
+   "attempts": 1,
+   "solved": false,
+   "gave_up_count": 1,
+   "first_session_at": "2026-09-17T04:59:38.495Z",
+   "last_session_at": "2026-09-17T04:59:38.495Z",
+   "best_total_sec": null,
+   "tags": [],
+   "topics": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "dynamic-programming",
+    "sliding-window"
    ]
   },
   {
@@ -659,6 +679,34 @@
     "math",
     "greedy"
    ]
+  },
+  {
+   "session_id": "741023e3",
+   "dir_key": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum",
+   "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+   "difficulty": "Medium",
+   "date": "2026-09-17",
+   "started_at": "2026-09-17T04:59:38.495Z",
+   "outcome": "gave_up",
+   "attempt_number": 1,
+   "total_active_sec": 264,
+   "phase_totals_sec": {
+    "thinking": 264,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "tags": [],
+   "topics": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "dynamic-programming",
+    "sliding-window"
+   ]
   }
  ],
  "tags": {
@@ -773,22 +821,22 @@
  },
  "topics": {
   "array": {
-   "session_count": 4,
-   "problem_count": 4,
+   "session_count": 5,
+   "problem_count": 5,
    "accepted": 1,
-   "gave_up": 3,
-   "give_up_rate": 0.75,
-   "avg_total_sec": 1149,
-   "median_total_sec": 1197,
+   "gave_up": 4,
+   "give_up_rate": 0.8,
+   "avg_total_sec": 972,
+   "median_total_sec": 900,
    "avg_phase_sec": {
-    "thinking": 165,
-    "writing": 564,
-    "reviewing": 118,
-    "debugging": 302
+    "thinking": 185,
+    "writing": 451,
+    "reviewing": 95,
+    "debugging": 241
    },
-   "avg_run_count": 4.8,
-   "avg_failed_run_count": 3.5,
-   "last_seen": "2026-09-14"
+   "avg_run_count": 3.8,
+   "avg_failed_run_count": 2.8,
+   "last_seen": "2026-09-17"
   },
   "binary-indexed-tree": {
    "session_count": 1,
@@ -809,22 +857,22 @@
    "last_seen": "2026-09-14"
   },
   "binary-search": {
-   "session_count": 1,
-   "problem_count": 1,
+   "session_count": 2,
+   "problem_count": 2,
    "accepted": 0,
-   "gave_up": 1,
+   "gave_up": 2,
    "give_up_rate": 1.0,
-   "avg_total_sec": 1494,
-   "median_total_sec": 1494,
+   "avg_total_sec": 879,
+   "median_total_sec": 879,
    "avg_phase_sec": {
-    "thinking": 162,
-    "writing": 768,
-    "reviewing": 54,
-    "debugging": 510
+    "thinking": 213,
+    "writing": 384,
+    "reviewing": 27,
+    "debugging": 255
    },
-   "avg_run_count": 6,
-   "avg_failed_run_count": 4,
-   "last_seen": "2026-09-14"
+   "avg_run_count": 3,
+   "avg_failed_run_count": 2,
+   "last_seen": "2026-09-17"
   },
   "binary-tree": {
    "session_count": 2,
@@ -916,6 +964,24 @@
    "avg_failed_run_count": 0,
    "last_seen": "2026-09-10"
   },
+  "dynamic-programming": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 264,
+   "median_total_sec": 264,
+   "avg_phase_sec": {
+    "thinking": 264,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-17"
+  },
   "geometry": {
    "session_count": 1,
    "problem_count": 1,
@@ -953,22 +1019,22 @@
    "last_seen": "2026-09-14"
   },
   "hash-table": {
-   "session_count": 1,
-   "problem_count": 1,
+   "session_count": 2,
+   "problem_count": 2,
    "accepted": 0,
-   "gave_up": 1,
+   "gave_up": 2,
    "give_up_rate": 1.0,
-   "avg_total_sec": 510,
-   "median_total_sec": 510,
+   "avg_total_sec": 387,
+   "median_total_sec": 387,
    "avg_phase_sec": {
-    "thinking": 102,
-    "writing": 276,
-    "reviewing": 42,
-    "debugging": 90
+    "thinking": 183,
+    "writing": 138,
+    "reviewing": 21,
+    "debugging": 45
    },
-   "avg_run_count": 3,
-   "avg_failed_run_count": 2,
-   "last_seen": "2026-09-14"
+   "avg_run_count": 1.5,
+   "avg_failed_run_count": 1,
+   "last_seen": "2026-09-17"
   },
   "heap-priority-queue": {
    "session_count": 1,
@@ -1096,6 +1162,24 @@
    "avg_failed_run_count": 4,
    "last_seen": "2026-09-14"
   },
+  "sliding-window": {
+   "session_count": 1,
+   "problem_count": 1,
+   "accepted": 0,
+   "gave_up": 1,
+   "give_up_rate": 1.0,
+   "avg_total_sec": 264,
+   "median_total_sec": 264,
+   "avg_phase_sec": {
+    "thinking": 264,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "avg_run_count": 0,
+   "avg_failed_run_count": 0,
+   "last_seen": "2026-09-17"
+  },
   "sorting": {
    "session_count": 1,
    "problem_count": 1,
@@ -1171,6 +1255,11 @@
    "sessions": 6,
    "accepted": 2,
    "active_sec": 5964
+  },
+  "2026-09-17": {
+   "sessions": 1,
+   "accepted": 0,
+   "active_sec": 264
   }
  },
  "records": [
@@ -2166,6 +2255,58 @@
     "language": "python"
    },
    "attempt_number": 2
+  },
+  {
+   "schema_version": 2,
+   "session_id": "741023e3",
+   "problem": {
+    "frontend_id": "1477",
+    "dir_key": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/",
+    "topics": [
+     "array",
+     "hash-table",
+     "binary-search",
+     "dynamic-programming",
+     "sliding-window"
+    ]
+   },
+   "language": "python",
+   "started_at": "2026-09-17T04:59:38.495Z",
+   "ended_at": "2026-09-17T05:04:01.547Z",
+   "outcome": "gave_up",
+   "phases": [
+    {
+     "phase": "thinking",
+     "start": "2026-09-17T04:59:38.495Z",
+     "end": "2026-09-17T05:04:01.547Z",
+     "source": "auto"
+    }
+   ],
+   "phase_totals_sec": {
+    "thinking": 264,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+   },
+   "total_active_sec": 264,
+   "run_count": 0,
+   "failed_run_count": 0,
+   "submit_count": 0,
+   "logic_idea": "",
+   "tags": [],
+   "comments": "",
+   "client": {
+    "extension_version": "1.0.1"
+   },
+   "solution": {
+    "path": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/attempts/2026-09-17T04-59-38Z_741023e3.py",
+    "language": "python"
+   },
+   "attempt_number": 1
   }
  ]
 }
