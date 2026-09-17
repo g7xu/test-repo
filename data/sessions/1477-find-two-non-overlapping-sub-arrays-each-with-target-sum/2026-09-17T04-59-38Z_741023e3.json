@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "session_id": "741023e3",
+  "problem": {
+    "frontend_id": "1477",
+    "dir_key": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/",
+    "topics": [
+      "array",
+      "hash-table",
+      "binary-search",
+      "dynamic-programming",
+      "sliding-window"
+    ]
+  },
+  "language": "python",
+  "started_at": "2026-09-17T04:59:38.495Z",
+  "ended_at": "2026-09-17T05:04:01.547Z",
+  "outcome": "gave_up",
+  "phases": [
+    {
+      "phase": "thinking",
+      "start": "2026-09-17T04:59:38.495Z",
+      "end": "2026-09-17T05:04:01.547Z",
+      "source": "auto"
+    }
+  ],
+  "phase_totals_sec": {
+    "thinking": 264,
+    "writing": 0,
+    "reviewing": 0,
+    "debugging": 0
+  },
+  "total_active_sec": 264,
+  "run_count": 0,
+  "failed_run_count": 0,
+  "submit_count": 0,
+  "logic_idea": "",
+  "tags": [],
+  "comments": "",
+  "client": {
+    "extension_version": "1.0.1"
+  },
+  "solution": {
+    "path": "1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/attempts/2026-09-17T04-59-38Z_741023e3.py",
+    "language": "python"
+  }
+}
